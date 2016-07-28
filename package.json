@@ -11,6 +11,7 @@
   "dependencies": {
     "iso8601.js": "^1.1.1",
     "isodate": "^0.1.4",
+    "say": "^0.9.0",
     "superagent": "^2.0.0"
   }
 }
