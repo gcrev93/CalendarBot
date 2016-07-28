@@ -1,0 +1,16 @@
+{
+  "name": "calendar-bot",
+  "version": "1.0.0",
+  "description": "Used for hardware project to read calendar at the click of a button",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabrielle Crevecoeur",
+  "license": "ISC",
+  "dependencies": {
+    "iso8601.js": "^1.1.1",
+    "isodate": "^0.1.4",
+    "superagent": "^2.0.0"
+  }
+}
