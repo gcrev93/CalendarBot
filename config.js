@@ -1,7 +1,9 @@
+var env = require('./env.js');
+
 module.exports = {
   //Live Connect API information
-  clientId: "2375c79b-bc27-4504-be7a-25f4fc2ee18e",
-  clientSecret: 'R9k3w8n6iikmJHFAnMO5JcF',
+  clientId:  process.env.CLIENT_ID,
+  clientSecret: process.env.CLIENT_SECRET,
   replyUrl :'https://playground.vroov.com:9443/token',
   version : 'v2.0',
   scopes : [
