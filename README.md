@@ -6,6 +6,7 @@ You will need to get a clientSecret key from the Microsoft Graph API and change 
 
 Hardware:
 - Raspberry Pi
+  ** Be sure to run 'sudo apt-get install festival festvox-kallpc16k' on your pi so that the proper node modules work
 - AUX Speaker
 
 
