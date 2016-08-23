@@ -1,8 +1,18 @@
 # CalendarBot
 
-Get your calendar read to you via Raspberry Pi
+Create a calendar reader which accesses your outlook calendar and reads your day to you with just the click of a button. This is an ideal introductory project for those curious on how to get started with microprocessors using JavaScript.
+
+You will need to get a clientSecret key from the Microsoft Graph API and change it in the config file!
 
 Hardware:
 - Raspberry Pi
 - AUX Speaker
+
+
+Node Modules
+- async
+- iso8601.js
+- say
+- string
+- superagent
 
